@@ -1,0 +1,216 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Server\\BlazorBusinessForms.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Client\\BlazorBusinessForms.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Client\\BlazorBusinessForms.Client.csproj",
+        "projectName": "BlazorBusinessForms.Client",
+        "projectPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Client\\BlazorBusinessForms.Client.csproj",
+        "packagesPath": "C:\\Users\\mark\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\BlazorBusinessForms.Shared.csproj": {
+                "projectPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\BlazorBusinessForms.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Server\\BlazorBusinessForms.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Server\\BlazorBusinessForms.Server.csproj",
+        "projectName": "BlazorBusinessForms.Server",
+        "projectPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Server\\BlazorBusinessForms.Server.csproj",
+        "packagesPath": "C:\\Users\\mark\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Client\\BlazorBusinessForms.Client.csproj": {
+                "projectPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Client\\BlazorBusinessForms.Client.csproj"
+              },
+              "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\BlazorBusinessForms.Shared.csproj": {
+                "projectPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\BlazorBusinessForms.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\BlazorBusinessForms.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\BlazorBusinessForms.Shared.csproj",
+        "projectName": "BlazorBusinessForms.Shared",
+        "projectPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\BlazorBusinessForms.Shared.csproj",
+        "packagesPath": "C:\\Users\\mark\\.nuget\\packages\\",
+        "outputPath": "C:\\code\\blazor-business-forms\\BlazorBusinessForms\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mark\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
